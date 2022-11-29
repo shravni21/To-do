@@ -10,7 +10,7 @@ A Todo List Project - Full-Stack
 1. Clone the repository
 
    ```sh
-git clone git@github.com:shravni21/To-do.git
+git clone https://github.com/shravni21/To-do.git
    ```
 
 2. Install NPM packages
