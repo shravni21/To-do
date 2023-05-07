@@ -6,7 +6,7 @@ dotenv.config();
 
 const Connection = () => {
 
-    const MONGODB_URI = `mongodb+srv://todo-shravni:rehan@cluster0.kr9upi0.mongodb.net/?retryWrites=true&w=majority`;
+    const MONGODB_URI = `mongodb+srv://taifullahansari:a31DxYfVInYpHMHN@cluster0.tivkjon.mongodb.net/`;
 
     mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
@@ -19,7 +19,7 @@ const Connection = () => {
     })
 
     mongoose.connection.on('error', () => {
-        console.log('Error while connecting with the database ', error.message);
+        console.log('Error while connecting with the database ');
     })
 }
 
